@@ -1,0 +1,12 @@
+testConfig:
+  testType: maxPerf
+  genCount: 1
+  stepCount: 4
+  stepPercent: 20
+  scenarios:
+    - name: "AuthenticatorYARIK23"
+      TPS: 18
+      responseTime: 1000
+    - name: "FacGetIw"
+      TPS: 134.7
+      responseTime: 2000
